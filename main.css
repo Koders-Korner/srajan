@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #b6f904;
+}
+.header{
+    display: box;
+    position: fixed;
+    top:0;
+    background-color:#ff0000;
+    color:#f9ea04;
+    width:100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 150%;
+}
+.form{
+    display: block;
+    margin-left:35%;
+    border-width:2px;
+    border-color:red;
+    position: fixed;
+    top:20%;
+    background-color: #b2e1d2;
+    width:30%;
+    border-style: solid;
+    border-radius:5%;
+    padding: 1%;
+}
+.text{
+    font-size: 18px;
+    margin: 1%;
+    padding:1.5%;
+    padding-top: 2%;
+    width: 95%;
+    height: 20px;
+    border-width:1px;
+    border-color:#000000;
+    background-color:#b2e1d2;
+    outline:none;
+    color:#0000dd;
+}
+.text:focus{
+    border-width:0;
+    border-bottom-width: 2px;
+    border-radius:7px;
+}
+.but{
+    margin-left:38%;
+    font-size:18px;
+    border-width:1px;
+    border-color:#000000;
+    background-color: #c5c5c5;
+    margin-top:2%;
+    padding:1.5%;
+    border-radius:5px;
+    outline:none;
+}
+.but1{
+    font-size:18px;
+    border-width:1px;
+    border-color:#000000;
+    background-color: #dadada;
+    margin-top:2%;
+    padding:1.5%;
+    border-radius:5px;
+    outline:none;
+}
+.but:hover{
+    cursor:pointer;
+    border-width:2px;
+}
+.but1:hover{
+    cursor:pointer;
+    border-width:2px;
+}
+.but:focus{
+    border-width:2px;
+}
+#reset{
+    margin-left:41.8%;
+}
+.error{
+    color:#aa0000;
+    font-size: 120%;
+    margin-left: 30%;
+}
+.back{
+    margin-left:32%;
+}
+.opt{
+    visibility: collapse;
+    display: block;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2%;
+    border-width:2px;
+    border-color: #000000;
+    background-color: #fff;
+    color:red;
+    font-size:130%;
+    position: fixed;
+    top:40%;
+    left:40%;
+}
+@media only screen and (max-width:550px){
+    .header{
+        font-size:100%;
+    }
+    .form{
+        width:50%;
+        margin-left:25%;
+    }
+    .but{
+        margin-left:29%;
+    }
+    #reset{
+        margin-left:35%;
+    }
+}
